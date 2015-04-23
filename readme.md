@@ -23,4 +23,4 @@ The analysis steps are explained in comments in the run_analysis.R file, but the
 - sorting the resulting table
 
 You can read the final dataset by using:
-sorteddata <- fread('sorteddata.csv')
+sorteddata <- fread('sorteddata.txt')

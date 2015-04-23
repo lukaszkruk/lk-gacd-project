@@ -78,4 +78,4 @@ summariseddata <- completedata %>%
 sorteddata <- summariseddata[order(summariseddata$activity, summariseddata$subject),]
 
 # save the final tidy dataset
-write.csv(sorteddata, file ='sorteddata.csv', row.names = FALSE)
+write.table(sorteddata, file ='sorteddata.txt', row.names = FALSE)
